@@ -32,7 +32,31 @@ namespace Learn1
             Console.WriteLine(Convert.ToInt16(numbers1.Length));
             Console.ReadKey();
             */
-            
+
+            //Класс list
+
+            /*
+            Класс List служит для работы со списками, о чем и говорит его название. Это такой «навороченный» массив.
+            Главное отличие от простого массива в том, что он динамический – вы можете вставлять и удалять элементы в любое время,
+            в то время как в простом массиве размер указывается при создании и сделать его больше или меньше нельзя.
+            */
+
+            /*
+            List<string> teams = new List<string>(); //Создание списка
+            teams.Add("Spartak"); //Добавление элемента в список
+            teams.Add("Loko");
+            teams.Add("CSKA");
+
+            List<string> teams2 = new List<string>() { "Misfits", "FalloutBoys" }; //Инициализация
+
+            teams.Remove("Loko");
+            teams.AddRange(teams2);
+            teams.ForEach(i => Console.WriteLine("{0}\t", i));
+            Console.ReadKey();
+            */
+
+
+
         }
     }
 }
