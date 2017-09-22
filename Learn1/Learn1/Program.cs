@@ -24,12 +24,14 @@ namespace Learn1
 
             //Многомерные
 
+            /*
             int[,] numbers1 = new int[2, 2]; //Объявление двумерного массива
             int[,,] numbers2 = new int[2, 2, 3]; //Объявление трехмерного массива
             int[,] numbers3 = new int[3, 2] { { 6, 0 }, { 5, 7 }, { 8, 9 } }; //Объявление и иинициализация двумерного массива
 
             Console.WriteLine(Convert.ToInt16(numbers1.Length));
             Console.ReadKey();
+            */
             
         }
     }
